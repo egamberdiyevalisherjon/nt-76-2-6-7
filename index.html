@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/css/main.css" />
+    <title>6-7-dars</title>
+  </head>
+  <body>
+    <!-- <picture>
+      <source
+        media="(min-width:1200px)"
+        srcset="
+          https://images.pexels.com/photos/8804774/pexels-photo-8804774.jpeg?auto=compress&cs=tinysrgb&w=1600
+        "
+      />
+      <source
+        media="(min-width:800px)"
+        srcset="
+          https://images.pexels.com/photos/5626051/pexels-photo-5626051.jpeg?auto=compress&cs=tinysrgb&w=1600
+        "
+      />
+      <source
+        media="(min-width:500px)"
+        srcset="
+          https://images.pexels.com/photos/9545301/pexels-photo-9545301.jpeg?auto=compress&cs=tinysrgb&w=1600
+        "
+      />
+      <img src="images/Legend.jpeg" alt="Flowers" style="width: auto" />
+    </picture> -->
+    <img class="legend-car" src="images/Legend.jpeg" alt="Legend" />
+    <form action="/signup" method="GET">
+      <!-- GET, POST -->
+      <fieldset>
+        <legend>FORM METHODS</legend>
+        <div>
+          <label for="fName">Your Name: </label>
+          <input
+            type="text"
+            id="fName"
+            placeholder="Eshmat"
+            name="firstName"
+            required
+            minlength="4"
+          />
+        </div>
+        <div>
+          <label for="age">Your Age: </label>
+          <input type="number" id="age" placeholder="26" name="age" required />
+        </div>
+        <button type="submit">Register</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

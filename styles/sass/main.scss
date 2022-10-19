@@ -1,0 +1,16 @@
+.legend-car {
+  width: 800px;
+  height: 800px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+// Desktop-first Design
+
+@media (max-width: 1000px) {
+  .legend-car {
+    display: none;
+  }
+}
+
+// Mobil-first design

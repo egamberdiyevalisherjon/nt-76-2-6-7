@@ -1,0 +1,14 @@
+.legend-car {
+  width: 800px;
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+@media (max-width: 1000px) {
+  .legend-car {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

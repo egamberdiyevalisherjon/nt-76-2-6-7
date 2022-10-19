@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.top-sale {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 1rem 0;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav {
+  display: none;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
+
+section#showcase {
+  background-color: #000;
+  color: #fff;
+  padding: 3rem 10px;
+}
+section#showcase h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+section#showcase p {
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+@media (min-width: 820px) {
+  section {
+    display: flex;
+  }
+}
+@media (min-width: 1000px) {
+  nav {
+    display: block;
+  }
+  nav ul {
+    display: flex;
+  }
+  button {
+    display: none;
+  }
+}/*# sourceMappingURL=gain.css.map */
